@@ -1,0 +1,11 @@
+{
+  "web": {
+    "client_id": "658245215022-kgsreu32t96lpk5rmvr2qibspocp8b7c.apps.googleusercontent.com",
+    "project_id": "the-scheduling-app",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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",
+    "javascript_origins": ["http://localhost:4000"]
+  }
+}
