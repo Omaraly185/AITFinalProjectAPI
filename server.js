@@ -1,7 +1,7 @@
-import express from "express";
-import { google } from "googleapis";
-import keys from "./the-scheduling-app.json" assert { type: "json" };
-import cors from "cors";
+const express = require("express");
+const { google } = require("googleapis");
+const keys = require("./the-scheduling-app.json");
+const cors = require("cors");
 const app = express();
 
 app.use(cors());

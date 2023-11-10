@@ -1,2 +1,1 @@
-# AITFinalProjectAPI
-Server for scheduling App
+# ApplyingPressure-API
