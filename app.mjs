@@ -6,6 +6,7 @@ const app = express();
 
 app.use(cors());
 
+const port = process.env.PORT || 4000;
 const jwtClient = new google.auth.JWT({
   email: keys.client_email,
   key: keys.private_key,
@@ -44,6 +45,6 @@ app.get("/events", async (req, res) => {
     res.status(500).send("Error fetching events list: " + err);
   }
 });
-app.listen(4000, () => {
-  console.log(`Server is running on port ${4000}`);
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
